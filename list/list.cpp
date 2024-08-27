@@ -14,12 +14,12 @@ namespace sy {
         };
         list()
         {
-           
+            mHead = nullptr;
+            mTail = nullptr;
         }
         ~list()
         {
-            mHead = nullptr;
-            mTail = nullptr;
+          
         }
 
         void pushback(T _data)
