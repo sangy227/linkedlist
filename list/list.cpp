@@ -19,7 +19,8 @@ namespace sy {
         }
         ~list()
         {
-          
+            delete(head_);
+            head_ = nullptr;
         }
 
         void pushback(T _data)
@@ -76,7 +77,8 @@ int main()
     list.erase();
     list.erase();
     list.erase();
-    
+    int b = 0;
+
   
 }
 
